@@ -1,0 +1,55 @@
+body{
+    background-color: lightgreen;
+    opacity: 0.9;
+}
+.heading {
+    text-align: center;
+    color: red;
+    border: 1px solid red; 
+    background-color: light;
+    opacity: 0.5; 
+}
+
+#league {
+    text-align: center;
+    border: 1px dashed lightblue;
+    opacity: 0.6;
+}
+
+#nbaLogo {
+    
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#imgNbaLogo > img {
+    width: 100%;
+    height: 70%;
+}
+
+.favPlayers {
+    
+    height: 200px;
+    display: flex;
+    gap: 8%;
+
+}
+
+.playersRow  {
+    width: 25%;
+    float: left;
+    justify-content: center;
+    align-items: center;
+}
+
+.playersRow > img {
+    width: 100%;
+    height: 100%;
+}
+
+.link-container{
+    display: flex;
+    gap: 33.3%;
+}
