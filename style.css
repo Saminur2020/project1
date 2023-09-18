@@ -1,4 +1,4 @@
-body{
+.mainPage{
     background-color: lightgreen;
     opacity: 0.9;
 }
@@ -52,4 +52,17 @@ body{
 .link-container{
     display: flex;
     gap: 33.3%;
+}
+.DavisPage {
+    background-color: lightyellow;
+    
+}
+
+.IrvingPage{
+    background-color: lightblue;
+    opacity: 0.8;
+}
+.James{
+    background-color: lightcyan;
+    opacity: 0.8;
 }
